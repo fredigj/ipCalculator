@@ -26,9 +26,9 @@
         <form class="mt-5 form-a">
             <div class="form-group">
                 <label for="ip">IP Address</label>
-                <input type="text" class="form-control" id="ip1" name="ip" placeholder="x.x.x.x">
+                <input type="text" class="form-control" id="ip1" name="ip" placeholder="x.x.x.x/x">
                 <label class="mt-4" for="ip">IP Address 2</label>
-                <input type="text" class="form-control" id="ip2" name="ip" placeholder="x.x.x.x">
+                <input type="text" class="form-control" id="ip2" name="ip" placeholder="x.x.x.x/x">
             </div>
             <button type="submit" class="btn btn-primary mt-5 pika-a">Calculate</button>
             <p class="mt-4 result-a">Same network: </p>
@@ -45,13 +45,15 @@
         <form class="mt-5 form-c hidden">
             <div class="form-group">
                 <label for="ip">Network ID</label>
-                <input type="text" class="form-control" id="ip1" name="ip" placeholder="x.x.x.x/x">
+                <input type="text" class="form-control" id="ip1" name="ip" placeholder="x.x.x.x">
                 <label class="mt-4" for="ip">Number of subnets</label>
                 <input type="text" class="form-control" id="numberOfSubs" name="ip" placeholder="x">
             </div>
-            <button type="submit" class="btn btn-primary mt-5 pika-b">Calculate</button>
-            <p class="mt-4 result1-b">Subnet ID: </p>
-            <p class="mt-4 result2-b">Broadcast ID: </p>
+            <button type="submit" class="btn btn-primary mt-5 pika-c">Calculate</button>
+            <p class="mt-4 result1-c">Subnet ID: </p>
+            <p class="mt-4 result2-c">Broadcast ID: </p>
+            <p class="mt-4 result3-c">First host IP: </p>
+            <p class="mt-4 result4-c">Last host IP: </p>
         </form>
     </div>
     <script src="index.js"></script>
